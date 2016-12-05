@@ -1,0 +1,104 @@
+#bkgrnd {
+  background-image: url("../img/Powell-Steps.jpg");
+  background-size: 100%;
+  height:100%;
+  background-repeat: no-repeat;
+}
+
+.remove-pad {
+  padding-bottom: 0px;
+}
+
+li {
+  list-style-type: none;
+  display:inline-block;
+  word-wrap: break-all;
+}
+
+.row {
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#translayer {
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 25px;
+  padding: 3%;
+  position: relative;
+  left: 5vw;
+  top: 5vh;
+  width: 90vw;
+  height: 90vh;
+}
+
+.search, .browse, .notices {
+  padding:inherit;
+}
+
+.notices, .ss, .browse {
+  padding: 10px 30px;
+}
+
+.browse2 {
+  padding: 0px;
+}
+
+#search {
+  border-radius: 5px;
+}
+
+.title {
+  font-weight: bold;
+  // text-emphasis-style: double-circle;
+}
+
+.link-contrast {
+  color: #ffff00;
+}
+
+.wrap {
+  width: 90%;
+  max-width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+span2 {
+  // padding: 60x;
+  color: #ffb300;
+  font-weight: bold;
+  font-size: large;
+}
+
+span:hover{
+    color: rgba(255,255,255,0.8);
+}
+
+.b:hover {
+  border-image: #ffff00;
+  background: #ffff00;
+}
+
+footer {
+  background-color: #666666;
+  padding: 25px 0px 0px, 400px;
+  border-top: 1px solid #17244c;
+  bottom: 0;
+  clear: both;
+  height: auto;
+  padding: 0 0 6px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+footer a {
+  display: block;
+  font-size: 0.8em;
+  color: 00a5e5;
+}
+
+footer a:hover {
+  color: rgba(255,255,255,0.8);
+}

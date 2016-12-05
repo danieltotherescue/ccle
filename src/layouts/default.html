@@ -7,13 +7,23 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CCLE | About</title>
+    <!-- <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css"> -->
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="shortcut icon" href="https://ccle.ucla.edu/theme/image.php/uclashared/theme/1480518928/favicon">
   </head>
   <body>
-
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+<!-- partials -->
+    {{> header}}
+    {{> navigation}}
     {{> body}}
+    {{> footer}}
 
     <script src="{{root}}assets/js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script> -->
   </body>
 </html>
