@@ -48,6 +48,10 @@ li {
   border-radius: 5px;
 }
 
+.lower {
+  margin-top: 14px;
+}
+
 .title {
   font-weight: bold;
   // text-emphasis-style: double-circle;
@@ -82,15 +86,15 @@ span:hover{
 
 footer {
   background-color: #666666;
-  padding: 25px 0px 0px, 400px;
-  border-top: 1px solid #17244c;
-  bottom: 0;
-  clear: both;
-  height: auto;
-  padding: 0 0 6px;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
+  padding: 0px 0px 0px, 0px;
+  // border-top: 1px solid #17244c;
+  // bottom: 0;
+  // clear: both;
+  // height: auto;
+  // padding: 0 0 6px;
+  // position: fixed;
+  // width: 100%;
+  // z-index: 100;
 }
 
 footer a {
